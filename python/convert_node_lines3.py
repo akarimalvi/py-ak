@@ -18,5 +18,6 @@ for f in content:
     
     #print(splitted_line[0] + ' ' + str(splitted_line[1].split('_')[0]) +' '+ str(splitted_line[1].split('_')[1]) + ' '+ str(splitted_line[1].split('_')[2]) +' '+ str(splitted_line[2]) + ' ' + date)
     
-    print(splitted_line[0] + ' '+ str(splitted_line[1].replace('asad', hunza).split('_')[0])+' '+ str(splitted_line[2]) + ' '+ str(splitted_line[3])+ ' ' + date)
+    print(splitted_line[0] + ' '+ str(splitted_line[1].replace('asad', hunza).split(('_')[0:]))+' '+ str(splitted_line[2]) + ' '+ str(splitted_line[3])+ ' ' + date)
+    
     
