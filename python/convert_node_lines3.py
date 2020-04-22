@@ -5,7 +5,7 @@ file = open(sys.argv[1])
 lines = file.readlines()
 
 
-
+asad
 # Read the date given in argument
 ##date = sys.argv[2]
 
